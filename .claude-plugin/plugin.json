@@ -22,6 +22,22 @@
     "./commands/supabase/types-gen.md",
     "./commands/supabase/edge-function-new.md"
   ],
-  "agents": "./agents/",
+  "agents": [
+    "./agents/frontend-developer.md",
+    "./agents/frontend-architect.md",
+    "./agents/backend-architect.md",
+    "./agents/system-architect.md",
+    "./agents/ui-designer.md",
+    "./agents/qa-expert.md",
+    "./agents/code-reviewer.md",
+    "./agents/refactoring-expert.md",
+    "./agents/performance-engineer.md",
+    "./agents/security-engineer.md",
+    "./agents/deep-research-agent.md",
+    "./agents/requirements-analyst.md",
+    "./agents/tech-stack-researcher.md",
+    "./agents/technical-writer.md",
+    "./agents/learning-guide.md"
+  ],
   "mcpServers": "./.mcp.json"
 }

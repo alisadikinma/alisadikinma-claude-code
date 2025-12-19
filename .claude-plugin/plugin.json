@@ -2,7 +2,9 @@
   "name": "alisadikinma-claude-code",
   "version": "1.0.0",
   "description": "Claude Code configuration with 14 productivity commands and 15 specialized AI agents with color-coded visual identification for modern web development",
-  "author": "Ali Sadikin",
+  "author": {
+    "name": "Ali Sadikin"
+  },
   "license": "MIT",
   "commands": [
     {

@@ -13,8 +13,9 @@ git remote add origin https://github.com/alisadikinma/alisadikinma-claude-code.g
 git push -u origin main
 
 # 3. Share with others
-# Installation command:
-/plugin install alisadikinma/alisadikinma-claude-code
+# Installation commands:
+/plugin marketplace add alisadikinma/alisadikinma-claude-code
+/plugin install alisadikinma-claude-code
 ```
 
 ## What You Have
@@ -62,10 +63,14 @@ git push -u origin main
 4. **Test Installation** - `/plugin install alisadikinma/alisadikinma-claude-code`
 5. **Share** - Post on social media, submit to marketplaces
 
-## Installation Command (for users)
+## Installation Commands (for users)
 
 ```bash
-/plugin install alisadikinma/alisadikinma-claude-code
+# Step 1: Add the marketplace
+/plugin marketplace add alisadikinma/alisadikinma-claude-code
+
+# Step 2: Install the plugin
+/plugin install alisadikinma-claude-code
 ```
 
 ## Your Plugin URL (after publishing)

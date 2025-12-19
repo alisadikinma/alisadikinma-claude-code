@@ -5,7 +5,11 @@ My personal Claude Code configuration for productive web development. This plugi
 ## Quick Install
 
 ```bash
-/plugin install alisadikinma/alisadikinma-claude-code
+# Step 1: Add the marketplace
+/plugin marketplace add alisadikinma/alisadikinma-claude-code
+
+# Step 2: Install the plugin
+/plugin install alisadikinma-claude-code
 ```
 
 ## What's Inside
@@ -132,7 +136,11 @@ The `code-reviewer` and `security-engineer` agents ensure:
 ### From GitHub
 
 ```bash
-/plugin install alisadikinma/alisadikinma-claude-code
+# Step 1: Add the marketplace
+/plugin marketplace add alisadikinma/alisadikinma-claude-code
+
+# Step 2: Install the plugin
+/plugin install alisadikinma-claude-code
 ```
 
 ### From Local Clone (for development)

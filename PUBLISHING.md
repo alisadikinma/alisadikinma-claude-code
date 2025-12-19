@@ -44,8 +44,11 @@ If you encounter authentication issues:
 Test that your plugin can be installed:
 
 ```bash
-# Install from your GitHub repo
-/plugin install alisadikinma/alisadikinma-claude-code
+# Step 1: Add the marketplace
+/plugin marketplace add alisadikinma/alisadikinma-claude-code
+
+# Step 2: Install the plugin
+/plugin install alisadikinma-claude-code
 
 # Verify commands are available
 /code-explain
@@ -61,12 +64,16 @@ To uninstall and test again:
 
 ## Step 3: Share Your Plugin
 
-### Option A: Share Direct Installation Command
+### Option A: Share Direct Installation Commands
 
-Share this command with others:
+Share these commands with others:
 
 ```bash
-/plugin install alisadikinma/alisadikinma-claude-code
+# Step 1: Add the marketplace
+/plugin marketplace add alisadikinma/alisadikinma-claude-code
+
+# Step 2: Install the plugin
+/plugin install alisadikinma-claude-code
 ```
 
 ### Option B: Submit to Community Marketplaces
@@ -103,7 +110,8 @@ Example post:
 14 slash commands + 15 specialized AI agents with color-coded identification
 
 Install with:
-/plugin install alisadikinma/alisadikinma-claude-code
+/plugin marketplace add alisadikinma/alisadikinma-claude-code
+/plugin install alisadikinma-claude-code
 
 Features:
 ✅ Color-coded agents (QA = Pink, Security = Red, etc.)

@@ -1,21 +1,32 @@
 {
-  "name": "edmunds-claude-code",
+  "name": "alisadikinma-claude-code",
   "owner": {
-    "name": "Edmund",
-    "contact": "github.com/edmund-io"
+    "name": "Ali Sadikin",
+    "contact": "github.com/alisadikinma"
   },
-  "description": "Edmund's curated Claude Code setup for productive development",
+  "description": "Ali Sadikin's Claude Code plugin with 14 commands and 15 color-coded AI agents",
   "plugins": [
     {
-      "name": "edmunds-claude-code",
+      "name": "alisadikinma-claude-code",
       "source": "./",
-      "description": "Personal Claude Code configuration with 14 productivity commands and 11 specialized AI agents for modern web development",
+      "description": "Claude Code configuration with 14 productivity commands and 15 specialized AI agents with color-coded visual identification for modern web development",
       "version": "1.0.0",
       "author": {
-        "name": "Edmund",
-        "email": "[email protected]"
+        "name": "Ali Sadikin",
+        "github": "alisadikinma"
       },
-      "tags": ["productivity", "nextjs", "supabase", "typescript", "react", "development"]
+      "tags": [
+        "productivity",
+        "nextjs",
+        "supabase",
+        "typescript",
+        "react",
+        "agents",
+        "mcp",
+        "qa",
+        "security",
+        "architecture"
+      ]
     }
   ]
 }

@@ -4,18 +4,17 @@
 
 ```bash
 # 1. Create GitHub repo at: https://github.com/new
-# Name: edmunds-claude-code
+# Name: alisadikinma-claude-code
 # Visibility: Public
 
 # 2. Push your code
-cd ~/Documents/GitHub/edmunds-claude-code
-git remote add origin https://github.com/edmund-io/edmunds-claude-code.git
+cd D:\Projects\alisadikinma-claude-code
+git remote add origin https://github.com/alisadikinma/alisadikinma-claude-code.git
 git push -u origin main
 
 # 3. Share with others
-# Installation commands:
-# /plugin marketplace add edmund-io/edmunds-claude-code
-# /plugin install edmunds-claude-code
+# Installation command:
+/plugin install alisadikinma/alisadikinma-claude-code
 ```
 
 ## What You Have
@@ -26,36 +25,52 @@ git push -u origin main
 - UI: `/component-new`, `/page-new`
 - Supabase: `/types-gen`, `/edge-function-new`
 
-✅ **11 AI Agents**
-- Architecture: tech-stack-researcher, system-architect, backend-architect, frontend-architect, requirements-analyst
-- Code Quality: refactoring-expert, performance-engineer, security-engineer
-- Documentation: technical-writer, learning-guide, deep-research-agent
+✅ **15 Color-Coded AI Agents**
+
+| Agent | Color | Category |
+|-------|-------|----------|
+| frontend-developer | 🔵 Blue | Engineering |
+| frontend-architect | 🔵 Light Blue | Engineering |
+| backend-architect | 🟣 Indigo | Engineering |
+| system-architect | 🟣 Violet | Engineering |
+| ui-designer | 💜 Purple | Design |
+| qa-expert | 💗 Pink | Quality |
+| code-reviewer | 🟡 Amber | Quality |
+| refactoring-expert | 🟠 Orange | Quality |
+| performance-engineer | 🟡 Yellow | Quality |
+| security-engineer | 🔴 Red | Security |
+| deep-research-agent | 🔵 Cyan | Research |
+| requirements-analyst | 🟢 Teal | Analysis |
+| tech-stack-researcher | 🔵 Light Cyan | Analysis |
+| technical-writer | 🟢 Emerald | Documentation |
+| learning-guide | 🟢 Green | Education |
+
+✅ **3 MCP Servers**
+- Context7 (documentation lookup)
+- Playwright (browser testing)
+- Supabase (database operations)
 
 ## Repository Location
 
-`~/Documents/GitHub/edmunds-claude-code/`
+`D:\Projects\alisadikinma-claude-code\`
 
 ## Next Steps
 
 1. **Read PUBLISHING.md** - Full step-by-step guide
 2. **Create GitHub Repo** - https://github.com/new
 3. **Push Code** - See commands above
-4. **Test Installation** - `/plugin install edmund-io/edmunds-claude-code`
+4. **Test Installation** - `/plugin install alisadikinma/alisadikinma-claude-code`
 5. **Share** - Post on social media, submit to marketplaces
 
-## Installation Commands (for users)
+## Installation Command (for users)
 
 ```bash
-# Step 1: Add marketplace
-/plugin marketplace add edmund-io/edmunds-claude-code
-
-# Step 2: Install plugin
-/plugin install edmunds-claude-code
+/plugin install alisadikinma/alisadikinma-claude-code
 ```
 
 ## Your Plugin URL (after publishing)
 
-https://github.com/edmund-io/edmunds-claude-code
+https://github.com/alisadikinma/alisadikinma-claude-code
 
 ## Need Help?
 

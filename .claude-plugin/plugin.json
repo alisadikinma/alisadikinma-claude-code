@@ -1,9 +1,10 @@
 {
-  "name": "edmunds-claude-code",
+  "name": "alisadikinma-claude-code",
   "version": "1.0.0",
-  "description": "Edmund's personal Claude Code setup with 14 productivity commands and 11 specialized AI agents for modern web development",
-  "author": "Edmund",
+  "description": "Ali Sadikin's Claude Code plugin with 14 productivity commands and 15 color-coded AI agents for modern web development",
+  "author": "Ali Sadikin",
   "license": "MIT",
+  "repository": "https://github.com/alisadikinma/alisadikinma-claude-code",
   "commands": [
     {
       "name": "new-task",
@@ -78,59 +79,94 @@
   ],
   "agents": [
     {
-      "name": "tech-stack-researcher",
-      "path": ".claude/agents/tech-stack-researcher.md",
-      "description": "Research and recommend technology choices for feature development"
-    },
-    {
-      "name": "backend-architect",
-      "path": ".claude/agents/backend-architect.md",
-      "description": "Design reliable backend systems with focus on data integrity, security, and fault tolerance"
-    },
-    {
-      "name": "deep-research-agent",
-      "path": ".claude/agents/deep-research-agent.md",
-      "description": "Specialist for comprehensive research with adaptive strategies and intelligent exploration"
+      "name": "frontend-developer",
+      "path": ".claude/agents/frontend-developer.md",
+      "description": "Expert UI engineer building React/Vue/Angular components with TypeScript",
+      "color": "#3B82F6"
     },
     {
       "name": "frontend-architect",
       "path": ".claude/agents/frontend-architect.md",
-      "description": "Create accessible, performant user interfaces with focus on user experience and modern frameworks"
+      "description": "Design scalable frontend architecture, design systems, and component libraries",
+      "color": "#60A5FA"
     },
     {
-      "name": "learning-guide",
-      "path": ".claude/agents/learning-guide.md",
-      "description": "Teach programming concepts and explain code with focus on understanding through progressive learning"
-    },
-    {
-      "name": "performance-engineer",
-      "path": ".claude/agents/performance-engineer.md",
-      "description": "Optimize system performance through measurement-driven analysis and bottleneck elimination"
-    },
-    {
-      "name": "refactoring-expert",
-      "path": ".claude/agents/refactoring-expert.md",
-      "description": "Improve code quality and reduce technical debt through systematic refactoring and clean code principles"
-    },
-    {
-      "name": "requirements-analyst",
-      "path": ".claude/agents/requirements-analyst.md",
-      "description": "Transform ambiguous project ideas into concrete specifications through systematic requirements discovery"
-    },
-    {
-      "name": "security-engineer",
-      "path": ".claude/agents/security-engineer.md",
-      "description": "Identify security vulnerabilities and ensure compliance with security standards and best practices"
+      "name": "backend-architect",
+      "path": ".claude/agents/backend-architect.md",
+      "description": "Design reliable backend systems with data integrity, security, and fault tolerance",
+      "color": "#6366F1"
     },
     {
       "name": "system-architect",
       "path": ".claude/agents/system-architect.md",
-      "description": "Design scalable system architecture with focus on maintainability and long-term technical decisions"
+      "description": "Design scalable system architecture with component boundaries and long-term strategy",
+      "color": "#8B5CF6"
+    },
+    {
+      "name": "ui-designer",
+      "path": ".claude/agents/ui-designer.md",
+      "description": "Create intuitive, beautiful, accessible interfaces with design systems",
+      "color": "#A855F7"
+    },
+    {
+      "name": "qa-expert",
+      "path": ".claude/agents/qa-expert.md",
+      "description": "Mandatory Playwright browser testing, CRUD verification, and QA sign-off",
+      "color": "#EC4899"
+    },
+    {
+      "name": "code-reviewer",
+      "path": ".claude/agents/code-reviewer.md",
+      "description": "Code quality assessment, security vulnerabilities, and best practices enforcement",
+      "color": "#F59E0B"
+    },
+    {
+      "name": "refactoring-expert",
+      "path": ".claude/agents/refactoring-expert.md",
+      "description": "Improve code quality through systematic refactoring and SOLID principles",
+      "color": "#F97316"
+    },
+    {
+      "name": "performance-engineer",
+      "path": ".claude/agents/performance-engineer.md",
+      "description": "Optimize performance through measurement-driven analysis and Core Web Vitals",
+      "color": "#EAB308"
+    },
+    {
+      "name": "security-engineer",
+      "path": ".claude/agents/security-engineer.md",
+      "description": "Identify vulnerabilities, OWASP compliance, and security standards enforcement",
+      "color": "#EF4444"
+    },
+    {
+      "name": "deep-research-agent",
+      "path": ".claude/agents/deep-research-agent.md",
+      "description": "Comprehensive research with multi-hop reasoning and evidence synthesis",
+      "color": "#06B6D4"
+    },
+    {
+      "name": "requirements-analyst",
+      "path": ".claude/agents/requirements-analyst.md",
+      "description": "Transform ambiguous ideas into concrete specifications and PRDs",
+      "color": "#14B8A6"
+    },
+    {
+      "name": "tech-stack-researcher",
+      "path": ".claude/agents/tech-stack-researcher.md",
+      "description": "Technology evaluation and architecture decision support with trade-off analysis",
+      "color": "#22D3EE"
     },
     {
       "name": "technical-writer",
       "path": ".claude/agents/technical-writer.md",
-      "description": "Create clear, comprehensive technical documentation tailored to specific audiences with focus on usability"
+      "description": "Create clear technical documentation, API docs, and user guides",
+      "color": "#10B981"
+    },
+    {
+      "name": "learning-guide",
+      "path": ".claude/agents/learning-guide.md",
+      "description": "Teach programming concepts through progressive learning and practical examples",
+      "color": "#22C55E"
     }
   ],
   "mcpServers": {
@@ -158,6 +194,10 @@
     "react",
     "api",
     "development",
-    "mcp"
+    "mcp",
+    "agents",
+    "qa",
+    "security",
+    "architecture"
   ]
 }

@@ -1,96 +1,151 @@
-# Edmund's Claude Code Setup
+# Ali Sadikin's Claude Code Plugin
 
-My personal Claude Code configuration for productive web development. This plugin provides **14 slash commands** and **11 specialized AI agents** to supercharge your development workflow.
+My personal Claude Code configuration for productive web development. This plugin provides **14 slash commands** and **15 color-coded AI agents** to supercharge your development workflow.
 
 ## Quick Install
 
 ```bash
-# Step 1: Add the marketplace
-/plugin marketplace add edmund-io/edmunds-claude-code
-
-# Step 2: Install the plugin
-/plugin install edmunds-claude-code
+/plugin install alisadikinma/alisadikinma-claude-code
 ```
 
 ## What's Inside
 
 ### 📋 Development Commands (7)
 
-- `/new-task` - Analyze code for performance issues
-- `/code-explain` - Generate detailed explanations
-- `/code-optimize` - Performance optimization
-- `/code-cleanup` - Refactoring and cleanup
-- `/feature-plan` - Feature implementation planning
-- `/lint` - Linting and fixes
-- `/docs-generate` - Documentation generation
+| Command | Description |
+|---------|-------------|
+| `/new-task` | Analyze code for performance issues |
+| `/code-explain` | Generate detailed explanations |
+| `/code-optimize` | Performance optimization |
+| `/code-cleanup` | Refactoring and cleanup |
+| `/feature-plan` | Feature implementation planning |
+| `/lint` | Linting and fixes |
+| `/docs-generate` | Documentation generation |
 
 ### 🔌 API Commands (3)
 
-- `/api-new` - Create new API endpoints
-- `/api-test` - Test API endpoints
-- `/api-protect` - Add protection & validation
+| Command | Description |
+|---------|-------------|
+| `/api-new` | Create new API endpoints |
+| `/api-test` | Test API endpoints |
+| `/api-protect` | Add protection & validation |
 
 ### 🎨 UI Commands (2)
 
-- `/component-new` - Create React components
-- `/page-new` - Create Next.js pages
+| Command | Description |
+|---------|-------------|
+| `/component-new` | Create React components |
+| `/page-new` | Create Next.js pages |
 
 ### 💾 Supabase Commands (2)
 
-- `/types-gen` - Generate TypeScript types
-- `/edge-function-new` - Create Edge Functions
+| Command | Description |
+|---------|-------------|
+| `/types-gen` | Generate TypeScript types |
+| `/edge-function-new` | Create Edge Functions |
 
-### 🤖 Specialized AI Agents (11)
+---
 
-**Architecture & Planning**
-- **tech-stack-researcher** - Technology choice recommendations with trade-offs
-- **system-architect** - Scalable system architecture design
-- **backend-architect** - Backend systems with data integrity & security
-- **frontend-architect** - Performant, accessible UI architecture
-- **requirements-analyst** - Transform ideas into concrete specifications
+### 🤖 Color-Coded AI Agents (15)
 
-**Code Quality & Performance**
-- **refactoring-expert** - Systematic refactoring and clean code
-- **performance-engineer** - Measurement-driven optimization
-- **security-engineer** - Vulnerability identification and security standards
+Each agent has a unique color for visual identification during execution.
 
-**Documentation & Research**
-- **technical-writer** - Clear, comprehensive documentation
-- **learning-guide** - Teaching programming concepts progressively
-- **deep-research-agent** - Comprehensive research with adaptive strategies
+#### Engineering (Blue/Indigo/Violet)
+
+| Agent | Color | Description |
+|-------|-------|-------------|
+| `frontend-developer` | 🔵 `#3B82F6` | Build React/Vue/Angular components with TypeScript |
+| `frontend-architect` | 🔵 `#60A5FA` | Frontend architecture, design systems, scalability |
+| `backend-architect` | 🟣 `#6366F1` | API design, database architecture, security |
+| `system-architect` | 🟣 `#8B5CF6` | System-wide architecture, component boundaries |
+
+#### Design (Purple)
+
+| Agent | Color | Description |
+|-------|-------|-------------|
+| `ui-designer` | 💜 `#A855F7` | Visual design, design systems, accessibility |
+
+#### Quality (Pink/Amber/Orange/Yellow)
+
+| Agent | Color | Description |
+|-------|-------|-------------|
+| `qa-expert` | 💗 `#EC4899` | **Mandatory Playwright browser testing**, CRUD verification |
+| `code-reviewer` | 🟡 `#F59E0B` | Code quality, security vulnerabilities, best practices |
+| `refactoring-expert` | 🟠 `#F97316` | Technical debt reduction, SOLID principles |
+| `performance-engineer` | 🟡 `#EAB308` | Core Web Vitals, profiling, optimization |
+
+#### Security (Red)
+
+| Agent | Color | Description |
+|-------|-------|-------------|
+| `security-engineer` | 🔴 `#EF4444` | OWASP, threat modeling, compliance |
+
+#### Research & Analysis (Cyan/Teal)
+
+| Agent | Color | Description |
+|-------|-------|-------------|
+| `deep-research-agent` | 🔵 `#06B6D4` | Multi-hop research, evidence synthesis |
+| `requirements-analyst` | 🟢 `#14B8A6` | PRD creation, stakeholder analysis |
+| `tech-stack-researcher` | 🔵 `#22D3EE` | Technology evaluation, trade-off analysis |
+
+#### Documentation & Education (Emerald/Green)
+
+| Agent | Color | Description |
+|-------|-------|-------------|
+| `technical-writer` | 🟢 `#10B981` | API docs, user guides, READMEs |
+| `learning-guide` | 🟢 `#22C55E` | Teaching concepts, tutorials, progressive learning |
+
+---
+
+### 🔧 MCP Servers (3)
+
+| Server | Package | Purpose |
+|--------|---------|---------|
+| **Context7** | `@upstash/context7-mcp` | Up-to-date library documentation |
+| **Playwright** | `@playwright/mcp` | Browser automation & testing |
+| **Supabase** | `@supabase/mcp-server-supabase` | Database operations |
+
+---
+
+## Key Features
+
+### 🎨 Color-Coded Agent Identification
+Each agent has a unique color so you can visually identify which specialist is working on your task.
+
+### ✅ Mandatory QA Verification
+The `qa-expert` agent enforces **Playwright browser testing** for every task completion:
+- CRUD operation verification
+- Zero console errors requirement
+- Screenshot evidence capture
+- Formal QA sign-off
+
+### 🔒 Security-First Code Review
+The `code-reviewer` and `security-engineer` agents ensure:
+- OWASP Top 10 compliance
+- No critical vulnerabilities before merge
+- CVSS severity classification
+
+---
 
 ## Installation
 
-### From GitHub (Recommended)
+### From GitHub
 
 ```bash
-# Add marketplace
-/plugin marketplace add edmund-io/edmunds-claude-code
-
-# Install plugin
-/plugin install edmunds-claude-code
+/plugin install alisadikinma/alisadikinma-claude-code
 ```
 
 ### From Local Clone (for development)
 
 ```bash
-git clone https://github.com/edmund-io/edmunds-claude-code.git
-cd edmunds-claude-code
+git clone https://github.com/alisadikinma/alisadikinma-claude-code.git
+cd alisadikinma-claude-code
 
-# Add as local marketplace
-/plugin marketplace add /path/to/edmunds-claude-code
-
-# Install plugin
-/plugin install edmunds-claude-code
+# Install from local path
+/plugin install /path/to/alisadikinma-claude-code
 ```
 
-## Best For
-
-- Next.js developers
-- TypeScript projects
-- Supabase users
-- React developers
-- Full-stack engineers
+---
 
 ## Usage Examples
 
@@ -105,7 +160,7 @@ cd edmunds-claude-code
 
 ```bash
 /api-new
-# Claude will scaffold a complete API route with types, validation, and error handling
+# Claude scaffolds complete API route with types, validation, error handling
 ```
 
 ### Research Tech Choices
@@ -113,26 +168,50 @@ cd edmunds-claude-code
 Just ask Claude questions like:
 - "Should I use WebSockets or SSE?"
 - "How should I structure this database?"
-- "What's the best library for X?"
 
-The tech-stack-researcher agent automatically activates and provides detailed, researched answers.
+The `tech-stack-researcher` agent automatically activates.
+
+### QA Verification
+
+After any development task, invoke:
+```
+@qa-expert verify this task
+```
+
+The agent will:
+1. Launch Playwright browser
+2. Test all CRUD operations
+3. Check for console errors
+4. Capture screenshots
+5. Provide formal sign-off
+
+---
 
 ## Philosophy
 
 This setup emphasizes:
 - **Type Safety**: Never uses `any` types
-- **Best Practices**: Follows modern Next.js/React patterns
-- **Productivity**: Reduces repetitive scaffolding
-- **Research**: AI-powered tech decisions with evidence
+- **Visual Feedback**: Color-coded agents for identification
+- **Quality Gates**: Mandatory QA verification
+- **Security First**: OWASP compliance enforcement
+- **Best Practices**: Modern Next.js/React patterns
+
+---
 
 ## Requirements
 
 - Claude Code 2.0.13+
 - Works with any project (optimized for Next.js + Supabase)
 
+---
+
 ## Customization
 
-After installation, you can customize any command by editing files in `.claude/commands/` and `.claude/agents/`.
+After installation, customize any command or agent by editing files in:
+- `.claude/commands/` - Slash commands
+- `.claude/agents/` - AI agents
+
+---
 
 ## Contributing
 
@@ -141,14 +220,18 @@ Feel free to:
 - Submit issues or suggestions
 - Share your improvements
 
+---
+
 ## License
 
 MIT - Use freely in your projects
 
+---
+
 ## Author
 
-Created by Edmund
+Created by **Ali Sadikin** ([@alisadikinma](https://github.com/alisadikinma))
 
 ---
 
-**Note**: This is my personal setup that I've refined over time. Commands are optimized for Next.js + Supabase workflows but work great with any modern web stack.
+**Note**: This is a hybrid plugin combining best practices from multiple sources, refined for productive modern web development workflows.

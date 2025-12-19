@@ -5,5 +5,23 @@
   "author": {
     "name": "Ali Sadikin"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "commands": [
+    "./commands/new-task.md",
+    "./commands/misc/code-explain.md",
+    "./commands/misc/code-optimize.md",
+    "./commands/misc/code-cleanup.md",
+    "./commands/misc/feature-plan.md",
+    "./commands/misc/lint.md",
+    "./commands/misc/docs-generate.md",
+    "./commands/api/api-new.md",
+    "./commands/api/api-test.md",
+    "./commands/api/api-protect.md",
+    "./commands/ui/component-new.md",
+    "./commands/ui/page-new.md",
+    "./commands/supabase/types-gen.md",
+    "./commands/supabase/edge-function-new.md"
+  ],
+  "agents": "./agents/",
+  "mcpServers": "./.mcp.json"
 }

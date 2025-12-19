@@ -5,52 +5,5 @@
   "author": {
     "name": "Ali Sadikin"
   },
-  "license": "MIT",
-  "commands": {
-    "new-task": ".claude/commands/new-task.md",
-    "code-explain": ".claude/commands/misc/code-explain.md",
-    "code-optimize": ".claude/commands/misc/code-optimize.md",
-    "code-cleanup": ".claude/commands/misc/code-cleanup.md",
-    "feature-plan": ".claude/commands/misc/feature-plan.md",
-    "lint": ".claude/commands/misc/lint.md",
-    "docs-generate": ".claude/commands/misc/docs-generate.md",
-    "api-new": ".claude/commands/api/api-new.md",
-    "api-test": ".claude/commands/api/api-test.md",
-    "api-protect": ".claude/commands/api/api-protect.md",
-    "component-new": ".claude/commands/ui/component-new.md",
-    "page-new": ".claude/commands/ui/page-new.md",
-    "types-gen": ".claude/commands/supabase/types-gen.md",
-    "edge-function-new": ".claude/commands/supabase/edge-function-new.md"
-  },
-  "agents": {
-    "frontend-developer": ".claude/agents/frontend-developer.md",
-    "frontend-architect": ".claude/agents/frontend-architect.md",
-    "backend-architect": ".claude/agents/backend-architect.md",
-    "system-architect": ".claude/agents/system-architect.md",
-    "ui-designer": ".claude/agents/ui-designer.md",
-    "qa-expert": ".claude/agents/qa-expert.md",
-    "code-reviewer": ".claude/agents/code-reviewer.md",
-    "refactoring-expert": ".claude/agents/refactoring-expert.md",
-    "performance-engineer": ".claude/agents/performance-engineer.md",
-    "security-engineer": ".claude/agents/security-engineer.md",
-    "deep-research-agent": ".claude/agents/deep-research-agent.md",
-    "requirements-analyst": ".claude/agents/requirements-analyst.md",
-    "tech-stack-researcher": ".claude/agents/tech-stack-researcher.md",
-    "technical-writer": ".claude/agents/technical-writer.md",
-    "learning-guide": ".claude/agents/learning-guide.md"
-  },
-  "mcpServers": {
-    "context7": {
-      "command": "npx",
-      "args": ["-y", "@upstash/context7-mcp"]
-    },
-    "playwright": {
-      "command": "npx",
-      "args": ["@playwright/mcp@latest"]
-    },
-    "supabase": {
-      "command": "npx",
-      "args": ["-y", "@supabase/mcp-server-supabase"]
-    }
-  }
+  "license": "MIT"
 }
